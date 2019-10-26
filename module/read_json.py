@@ -16,6 +16,3 @@ with open('/tmp/version_info.json', 'r') as f:
     version_dict = json.load(f)
 
 print(version_dict["java"]["version"])
-print(version_dict["python"]["version"])
-print(version_dict["jenkins"]["version"])
-print(version_dict["docker"]["version"])
